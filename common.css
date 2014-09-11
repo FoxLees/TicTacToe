@@ -1,0 +1,292 @@
+body
+{
+	margin: 0px;
+	cursor: default;
+	background-color: #F0F0F0;
+	color: #845BA1;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+}
+div, span
+{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+ul
+{
+	margin: 5px 0;
+	padding: 0 0 0 30px;
+}
+p
+{
+	margin: 5px 0;
+}
+button
+{
+	line-height: 28px;
+	padding: 0 10px;
+	overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid #AAAAAA;
+	color: #845BA1;
+	background: #FFFFFF;
+	margin: 0 10px 0 0;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	height: 30px;
+	*overflow: visible;
+}
+button::-moz-focus-inner
+{
+    border: 0;
+    padding: 0;
+}
+button:hover
+{
+	border-color: #845ba1;
+	outline: none;
+}
+button:active
+{
+	outline: 1px solid #845ba1;
+}
+button.disabled
+{
+	background: #F0F0F0;
+	border-color: #AAAAAA;
+	cursor: default;
+	color: #AAAAAA;
+	outline: none;
+	text-decoration: none !important;
+}
+input,
+select
+{
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #845BA1;
+	border: 1px solid #AAAAAA;
+    padding: 5px;
+	font: 12px Tahoma,Arial,Helvetica,sans-serif;
+}
+select option,
+select optgroup
+{
+	font: 12px Tahoma,Arial,Helvetica,sans-serif;
+}
+select optgroup
+{
+	font-weight: bold;
+}
+.ttt-clear
+{
+	clear: both;
+}
+.ttt-banner
+{
+	margin-bottom: 10px;
+	padding: 10px;
+	background: none repeat scroll 0% 0% #FDF7DF;
+}
+
+.layout
+{
+	margin: 10px auto;
+	width: 990px;
+}
+
+.content
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.ttt-title
+{
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	background: #845BA1;
+}
+.ttt-left
+{
+	float: left;
+	width: 60%;
+}
+.ttt-right
+{
+	float: right;
+	width: 40%;
+}
+.ttt-form
+{
+	
+}
+.ttt-form-control
+{
+	margin-bottom: 10px;
+}
+.ttt-form-control--input
+{
+	margin-right: 10px;
+}
+
+.ttt-start
+{
+	padding: 10px;
+}
+.ttt-start button
+{
+	width: 100%;
+}
+
+.ttt-history
+{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #FFFFFF;
+}
+
+.ttt-game
+{
+	
+}
+.ttt-game-score
+{
+	
+}
+.ttt-game-score table
+{
+	margin: 0 auto;
+}
+.ttt-game-score table td
+{
+	padding: 10px;
+	text-align: center;
+}
+.ttt-game-score-computer,
+.ttt-game-score-player
+{
+	width: 150px;
+}
+.ttt-game-score-name
+{
+	vertical-align: middle;
+	font-weight: bold;
+	line-height: 100%;
+}
+.ttt-game-score-value
+{
+	font-size: 30px;
+	line-height: 100%;
+}
+.ttt-game-score-side
+{
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 100%;
+}
+.ttt-game-score-splitter
+{
+	font-size: 40px;
+	line-height: 100%;
+}
+.ttt-game-field table
+{
+	background: #FFFFFF;
+	border-collapse: collapse !important;
+	margin: 0 auto;
+}
+.ttt-game-field-cell
+{
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 100px;
+	text-align: center;
+}
+.ttt-game-field-row-0 td,
+.ttt-game-field-row-1 td
+{
+	border-bottom: 1px solid #AAAAAA;
+}
+.ttt-game-field-col-0,
+.ttt-game-field-col-1
+{
+	border-right: 1px solid #AAAAAA;
+}
+.ttt-game-field-cell--disabled
+{
+	color: #AAAAAA;
+	background: #FAFAFA;
+}
+.ttt-game-field-cell--done,
+.ttt-game-field-cell--empty:hover
+{
+	color: #FFFFFF;
+	cursor: pointer;
+	background: #845BA1;
+}
+
+.ttt-history-title
+{
+	font-size: 14px;
+	text-align: center;
+}
+.ttt-history-best-title,
+.ttt-history-data-title
+{
+	text-decoration: underline;
+}
+.ttt-history table
+{
+	margin: 0 auto;	
+}
+.ttt-history-item-points
+{
+	font-weight: bold;
+}
+.ttt-history-item
+{
+	margin-bottom: 10px;
+}
+.ttt-history-clear button
+{
+	width: 100%;
+}
+
+.ttt-resul-restart
+{
+	text-align: center;
+}
+.ttt-result .ttt-banner
+{
+	text-align: center;
+}
+.ttt-result-message
+{
+	line-height: 150%;
+	font-size: 30px;
+}
+.ttt-result-score
+{
+	line-height: 150%;
+	font-size: 20px;
+}
+
+@media all and (max-width: 990px)
+{
+	body
+	{
+		
+	}
+}
